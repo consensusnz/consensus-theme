@@ -1,0 +1,54 @@
+header {
+  /** Header **/
+  .navbar-global {
+    padding: 25px;
+
+    .uk-navbar-right .uk-navbar-nav li a {
+      font-size: 105%;
+      font-weight: 500;
+    }
+  }
+
+  .uk-dropdown {
+    .uk-nav-header {
+      color: #333 !important;
+    }
+
+    li a {
+      color: #999 !important;
+      font-weight: 400 !important;
+    }
+
+    li a:hover {
+      color: #666 !important;
+      font-weight: 400;
+    }
+
+    .uk-nav-divider {
+      border-top: 1px solid #e5e5e5 !important
+    }
+  }
+}
+
+.uk-card {
+  border-radius: $global-border-radius;
+}
+
+.uk-alert {
+  border-radius: $global-border-radius;
+}
+
+/** Admin **/
+#user_switching_switch_on {
+margin: 0;
+
+  a {
+    position: fixed;
+    bottom: 0;
+    background-color: #e6e4e7;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,8 @@
+fieldset {
+  border: none;
+}
+
+.frm_error_style {
+  @extend .uk-alert;
+  @extend .uk-alert-danger;
+}

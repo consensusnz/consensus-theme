@@ -1,0 +1,57 @@
+body {
+
+  header {
+    .uk-navbar-nav>li>a {
+      text-transform: inherit;
+      font-weight: bold !important;
+      font-size: 18px !important;
+    }
+
+    .uk-navbar-container:not(.uk-navbar-transparent) {
+      background-color: $global-secondary-background !important
+    }
+
+    .uk-navbar-nav>li>a {
+      position: relative !important
+    }
+
+    .uk-navbar-nav>li>a:after {
+      content: '';
+      opacity: 0;
+      position: absolute !important;
+      border-radius: 50%;
+      width: 5px;
+      height: 5px;
+      background-color: $brand_primary;
+      top: 57px;
+      left: 50%;
+      display: inline-block;
+        -webkit-transition: all $transition-duration;
+        -khtml-transition: all $transition-duration;
+        -moz-transition: all $transition-duration;
+        -ms-transition: all $transition-duration;
+        -o-transition: all $transition-duration;
+      transition: all $transition-duration
+    }
+
+    .uk-navbar-nav>li:not(.no-indicator)>a:hover:after {
+      opacity: 1;
+    }
+
+    #intro {
+      .hero {
+        margin-top: -75px;
+
+        h1 {
+          margin-top: 75px;
+        }
+      }
+    }
+  } //End header.
+} //end body
+
+body:not(.home) {
+  .uk-navbar-nav>li.uk-active>a:after {
+    opacity: 1;
+  }
+}

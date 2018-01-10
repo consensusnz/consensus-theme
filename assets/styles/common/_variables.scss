@@ -1,0 +1,26 @@
+// Grid settings
+//$main-sm-columns:       12;
+//$sidebar-sm-columns:    4;
+
+// Colors
+//$brand-primary:         #2C5E71;
+
+// Colours
+$brand-primary: #009dd6; //Consensus Cerulean
+$brand-secondary: #385d70; //Consensus denim grey
+$brand-highlight: #e54400; //Consensus deep orange
+$brand-dark: #001423; //Consensus navy black
+$brand-light: #009dd6; //Consensus Cerulean
+
+$global-border-radius: 4px;
+
+//UIKit variable overwrites should go here. Gulp will check for changes and recompile UIKit.
+
+$global-font-family: "proxima-nova", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+$global-color: $brand-dark; //Consensus navy black
+$global-link-color: $brand-secondary; //Consensus denim grey
+$global-secondary-background: $brand-secondary; //Consensus denim grey
+$global-primary-background: $brand-primary;
+$button-primary-background: $brand-primary; //Consensus deep orange
+$button-secondary-background: $brand-highlight; //Consensus deep orange
